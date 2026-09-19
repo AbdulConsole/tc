@@ -238,7 +238,8 @@ section "USERNAME SETUP"
 
 while true; do
 
-    read -rp "Enter your username (maximum 6 characters): " USERNAME
+    #read -rp "Enter your username (maximum 6 characters): " USERNAME
+    read -rp "Enter your username (maximum 6 characters): " USERNAME </dev/tty
 
     # Empty
     if [ -z "$USERNAME" ]; then
