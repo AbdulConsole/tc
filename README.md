@@ -40,6 +40,7 @@ The startup banner uses the custom `ANSI-Shadow` FIGlet font:
 ██╔══██║██╔══██║██╔══██╗██║   ██║
 ██║  ██║██║  ██║██║  ██║╚██████╔╝
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝
+```
 
 The banner is piped through lolcat for a colorful gradient.
 
